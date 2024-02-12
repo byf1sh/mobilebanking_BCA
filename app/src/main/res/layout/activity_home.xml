@@ -12,42 +12,42 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="505px"
+        android:layout_marginTop="545px"
         >
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_mInfoActivity"
             android:layout_width="208px"
             android:layout_height="206px"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginStart="48px">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_mTransferActivity"
             android:layout_width="208px"
             android:layout_height="206px"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toRightOf="@id/button_mInfoActivity"
             app:layout_constraintRight_toLeftOf="@id/button_mPaymentActivity">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_mPaymentActivity"
             android:layout_width="208px"
             android:layout_height="206px"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toRightOf="@id/button_mTransferActivity"
             app:layout_constraintRight_toLeftOf="@id/button_mCommerceActivity">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_mCommerceActivity"
             android:layout_width="208px"
             android:layout_height="206px"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginEnd="47px">
-        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
         <!-- pembatazzzzz -->
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_CardlessActivity"
             android:layout_width="208px"
             android:layout_height="206px"
@@ -55,8 +55,8 @@
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginStart="48px"
             android:layout_marginTop="96px">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_mAdminActivity"
             android:layout_width="208px"
             android:layout_height="206px"
@@ -65,8 +65,8 @@
             app:layout_constraintLeft_toRightOf="@id/button_CardlessActivity"
             android:layout_marginStart="48px"
             android:layout_marginTop="40dp">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_BCAKeyboard"
             android:layout_width="208px"
             android:layout_height="206px"
@@ -74,8 +74,8 @@
             app:layout_constraintTop_toBottomOf="@id/button_mPaymentActivity"
             android:layout_marginEnd="51px"
             android:layout_marginTop="96px">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_FlazzActivity"
             android:layout_width="208px"
             android:layout_height="206px"
@@ -83,8 +83,8 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginEnd="47px"
             android:layout_marginTop="96px">
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/button_BagiBagiActivity"
             android:layout_width="208px"
             android:layout_height="206px"
@@ -92,7 +92,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginStart="48px"
             android:layout_marginBottom="30px">
-        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.cardview.widget.CardView
             android:id="@+id/button_LifestyleActivity"
             android:layout_width="208px"
