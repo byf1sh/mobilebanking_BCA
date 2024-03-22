@@ -101,6 +101,15 @@
             android:layout_marginStart="51px"
             android:visibility="invisible">
         </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_RainMoneyActivity"
+            android:layout_width="208px"
+            android:layout_height="206px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button_LifestyleActivity"
+            android:layout_marginStart="51px"
+            android:visibility="invisible">
+        </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

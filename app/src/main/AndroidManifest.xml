@@ -12,6 +12,24 @@
         android:theme="@style/Theme.Mobilebanking_BCA.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".QrSuccessTrfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrPinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrInputNominalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrInputNamaTokoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RainMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mInfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -25,8 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".LandingPageActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
