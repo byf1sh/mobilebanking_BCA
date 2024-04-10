@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QrSuccessTrfActivity"
-    android:background="@drawable/Qr_TrfSuccess">
+    android:background="@drawable/qr_trfsuccess">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

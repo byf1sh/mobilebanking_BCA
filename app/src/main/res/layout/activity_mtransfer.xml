@@ -14,7 +14,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="523px"
+        android:layout_marginTop="523px">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/dtransfer_AntarRekening"
             android:layout_width="match_parent"
