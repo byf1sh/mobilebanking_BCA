@@ -7,13 +7,26 @@
     tools:context=".RainMoneyActivity"
     android:background="@drawable/rainmoney">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/inputBesaranNominal"
+        android:id="@+id/inputBesaranNominalLayout"
         android:layout_width="426px"
         android:layout_height="120px"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="61px"
         android:layout_marginTop="384px">
+        <EditText
+            android:layout_width="150px"
+            android:layout_height="32px"
+            android:fontFamily="@font/roboto_r"
+            android:text="100.000"
+            android:textSize="11sp"
+            android:textColor="#81868C"
+            android:layout_marginTop="47px"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="47px"
+            app:layout_constraintLeft_toLeftOf="parent"
+            >
+        </EditText>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

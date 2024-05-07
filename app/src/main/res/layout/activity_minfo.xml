@@ -7,7 +7,7 @@
     tools:context=".mInfoActivity"
     android:background="@drawable/minfo">
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/minfo_InfoSaldo"
+        android:id="@+id/button_InfoSaldo_minfo"
         android:layout_width="986px"
         android:layout_height="108px"
         app:layout_constraintTop_toTopOf="parent"
